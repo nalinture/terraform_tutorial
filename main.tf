@@ -16,7 +16,7 @@ resource "aws_iam_user" "users" {
   name = "tftester"
 
   tags = {
-    user = "tftester"
+    user = "iamuserfromtf"
   }
 }
 
