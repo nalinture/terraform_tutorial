@@ -12,11 +12,12 @@ provider "aws" {
   region = "us-east-1"
 }
 
-resource "aws_iam_user" "user" {
-  name = "fromterraform"
+resource "aws_s3_bucket" "example" {
+  bucket = "my-tf-test-bucket09122023"
 
   tags = {
-    tag-key = "fromterraform"
+    Name        = "My bucket"
+    Environment = "Dev"
   }
 }
 
