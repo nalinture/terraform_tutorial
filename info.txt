@@ -1,0 +1,3 @@
+# access key and secret key for terraform-programmatic user
+AKIAYJ5URY7DO76EL65D
+YPGlbtUsIbgBKz7gqoRUATMH8/YxX3oMNstWEDJn
